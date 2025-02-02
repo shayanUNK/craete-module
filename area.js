@@ -4,7 +4,7 @@ function squareArea(length, width) {
 }
 
 //Export presentation => Show area of rectangle
-function RectangleArea(length, width) {
+function rectangleArea(length, width) {
   return length * width;
 }
 
@@ -13,4 +13,4 @@ function triangleArea(height, rule) {
   return (height * rule) / 2;
 }
 
-export { squareArea, RectangleArea, triangleArea };
+export { squareArea, rectangleArea, triangleArea };
